@@ -13,8 +13,14 @@ An example app for the EOS blockchain platform.
 
 ## Get started
 
-* Install all dependencies via `yarn` (preferably) or `npm i`
-* Start project via `npm start`
+* npm install
+* npm run build
+* npm install http-server (if not available)
+* pm2 start script_run_wallet.sh 
+
+## Access wallet
+
+  http://159.65.109.118:1338/
 
 ## Get help
 
